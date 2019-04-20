@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <android.support.constraint.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_height="663dp">
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="65dp" android:layout_marginTop="20dp">
+                    <TextView
+                            android:text="INFORMATIKA UPGRIS"
+                            android:layout_width="311dp"
+                            android:layout_height="match_parent"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="sans-serif-smallcaps"
+                            android:textAlignment="center" android:paddingTop="15dp"/>
+
+                    <ImageView
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            app:srcCompat="@drawable/logo"
+                            android:id="@+id/imageView"/>
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="351dp"
+                        android:orientation="vertical"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp">
+
+
+                    <TextView
+                            android:text="VISI"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold|italic"
+                            android:textAlignment="center"
+                            android:paddingTop="10dp"/>
+
+                    <TextView
+                            android:text="Menjadi Program Studi Informatikayang Unggul dan Berjatidiri pada tahun 2025 "
+                            android:layout_width="wrap_content"
+                            android:layout_height="48dp"
+                            android:id="@+id/textView"
+                            android:textSize="14sp"
+                            android:textAlignment="center"
+                            android:layout_marginTop="5dp"/>
+                    <TextView
+                            android:text="MISI"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold|italic"
+                            android:textAlignment="center"
+                            android:paddingTop="10dp"/>
+                    <TextView
+                            android:text="Menyelenggarakan Pendidikan berbasis ilmu pengetahuan dan teknologi terapan dalam bidang Informatika yang unggul dan berjati diri."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView2"
+                            android:textSize="12sp"
+                            android:textAlignment="center"
+                            android:layout_marginTop="5dp"/>
+                    <TextView
+                            android:text="Melaksanakan penelitian sebagai dasar peningkatan kualitas pembelajaran Informatika untuk mendukung pembangunan nasional."
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView3"
+                            android:textSize="12sp"
+                            android:textAlignment="center"
+                            android:layout_marginTop="5dp"/>
+                    <TextView
+                            android:text="Melaksanakan pengabdian kepada masyarakat sebagai implementasi hasil penelitian untuk meningkatkan kualitas dan kesejahteraan masyarakat."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView4"
+                            android:textSize="12sp"
+                            android:layout_marginTop="5dp" android:textAlignment="center"/>
+                    <TextView
+                            android:text="Memberikan peneladanan dalam penyelenggaraan pendidikan, penelitian dan pengabdian kepada masyarakatyang Unggul, Peduli, Gigih, Religius, ber-Integritas dan Sinergis (UPGRIS)."
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView5"
+                            android:textSize="12sp"
+                            android:textAlignment="center"
+                            android:layout_marginTop="5dp"/>
+                    <TextView
+                            android:text="Melakukan kegiatan kemitraan dengan institusi dalam maupun luar negeri."
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView6"
+                            android:textSize="12sp"
+                            android:layout_marginTop="5dp" android:textAlignment="center"/>
+
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="51dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:orientation="horizontal">
+
+                    <Button
+                            android:text="Isi Data Diri Anda "
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/grade"
+                            android:textSize="12sp"
+                            android:textAlignment="center">
+
+                    </Button>
+
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="58dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp">
+
+                    <Button
+                            android:text="Kontak Dosen Informatika"
+                            android:layout_width="190dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/dosen"
+                            android:textSize="12sp"
+                            android:textAlignment="center"/>
+
+                    <Button
+                            android:text="Video Profil Prodi Informatika"
+                            android:layout_width="wrap_content"
+                            android:layout_height="58dp"
+                            android:id="@+id/profil"
+                            android:textSize="12sp"
+                            android:textAlignment="center"
+                            android:fontFamily="monospace"/>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</LinearLayout>
